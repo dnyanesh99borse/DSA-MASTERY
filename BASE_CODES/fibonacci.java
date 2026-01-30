@@ -1,5 +1,5 @@
 import java.util.*;
-class fibonacci{
+class Fibonacci{
     static void fibonacciSeries(int n){
         if(n == 0 || n == 1){
             System.out.println(n);

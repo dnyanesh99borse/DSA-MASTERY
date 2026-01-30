@@ -1,7 +1,7 @@
 //find the Nth term of the fibonacci series
 
 import java.util.*;
-class fibonthterm{
+class Fibonthterm{
     static void fibonthterm(int n){
         if(n == 1){
             System.out.println(n);
