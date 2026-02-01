@@ -22,6 +22,10 @@
 //         isPerfectSquare(num);
 //     }
 // }
+
+
+
+
 //------------ANOTHER APPROACH WITH MATH.SQRT();----------------
 import java.util.*;
 
