@@ -1,4 +1,6 @@
-
+//PERFECT NUMBER: IS A NUMBER, WHEN ADDITION OF ITS FACTORS EQUALS TO THE NUMBER THEN IT IS KNOW AS PERFECT NUMBER
+//BUT, EXCEPT THE FACTOR(THE NUBER ITSELF). i.e: i < num and not i<=num;
+//EG: 6,28,496.
 import java.util.*;
 class PerfectNumber{
     static void isPerfectNumber(int num){
