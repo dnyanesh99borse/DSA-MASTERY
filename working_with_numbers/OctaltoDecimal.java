@@ -6,6 +6,10 @@ class OctaltoDecimal{
 
         while(octal != 0){
             int bit = octal % 10;
+               // Validate octal digit
+            if (digit < 0 || digit > 7) {
+                return -1; // invalid octal number
+            }
             sum += bit * Math.pow(8,power);
             octal = octal / 10;
             power++;

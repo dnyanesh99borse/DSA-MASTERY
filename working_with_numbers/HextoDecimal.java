@@ -59,7 +59,7 @@
 // }
 
 
-
+//------------------USING FUNCTION AND OPTIMAL APPROACH-------------------
 
 
 class HextoDecimal{

@@ -1,22 +1,21 @@
 import java.util.*;
-class DectoBin{
-    static void findBin(int num){
-        int output = 0;
 
-        int i = 0;
-        while(num >= 1){
-            int digit = num % 2; 
-            output += digit * Math.pow(10,i);
+class DectoBin {
+    static void findBin(int num) {
+        String binary = "";
+
+        while (num > 0) {
+            int digit = num % 2;
+            binary = digit + binary;
             num = num / 2;
-            i++;
         }
-        System.out.println(output);
+
+        System.out.println(binary);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-
         findBin(num);
     }
 }
