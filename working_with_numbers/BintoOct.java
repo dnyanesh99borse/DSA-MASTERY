@@ -8,12 +8,12 @@ class BintoOct{
     }
 }
 
-class BintoOct{
-    static void findOctal(String bin){
+// class BintoOct{
+//     static void findOctal(String bin){
 
-    }
+//     }
 
-    public static void main(String[] args){
+//     public static void main(String[] args){
         
-    }
-}
+//     }
+// }
